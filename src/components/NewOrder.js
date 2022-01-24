@@ -96,7 +96,7 @@ const showForm = (props) => {
             <div className="input-group">
               <input
                 type="text"
-                placeholder="Sell Price"
+                placeholder="Sel Price"
                 onChange={(e) => dispatch( sellOrderPriceChanged(e.target.value) )}
                 className="form-control form-control-sm bg-dark text-white"
                 required
